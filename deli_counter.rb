@@ -7,7 +7,7 @@ def line(katz_deli)
   
    string= "The line is currently:"
     katz_deli.each.with_index(1) do |person, index|
-    string+="#{index}. #{katz_deli[-1]}"
+    string+="#{index}. #{person}"
     
     end 
     puts string
