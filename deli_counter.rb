@@ -7,7 +7,7 @@ def line(katz_deli)
    person=1 
    string= "The line is currently:"
     while person>=1 do 
-    string+="#{person}. katz_deli[0]"
+    string+="#{person}. katz_deli[1]"
     person+=1 
     end 
   end 
