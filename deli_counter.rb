@@ -10,7 +10,7 @@ def line(katz_deli)
     string+="#{index}. katz_deli[-1]"
     
     end 
-    puts "string"
+    puts string
   end 
 end
 
