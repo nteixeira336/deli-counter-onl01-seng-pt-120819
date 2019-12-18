@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli= [ ]
+
 def line(katz_deli)
   if katz_deli== [ ]
     puts "The line is currently empty."
@@ -7,7 +7,7 @@ def line(katz_deli)
    person=1 
    string= "The line is currently:"
     while person>=1 do 
-    string+="#{person}. katz_deli[1]"
+    string+="#{person}. katz_deli[-1]"
     person+=1 
     end 
   end 
