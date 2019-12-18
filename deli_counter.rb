@@ -6,8 +6,8 @@ def line(katz_deli)
   else 
    person=1 
    string= "The line is currently:"
-    while person>=1 do 
-    string+="#{person}. katz_deli[-1]"
+    katz_deli.each.with_index(1) do |person, index|
+    string+="#{index}. katz_deli[-1]"
     person+=1 
     end 
   end 
